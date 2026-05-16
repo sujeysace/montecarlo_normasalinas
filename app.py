@@ -15,6 +15,7 @@ st.set_page_config(
 st.title("Simulación Monte Carlo Actuarial")
 st.write(
     "Aplicación basada en el notebook de simulación Monte Carlo para estimar pérdidas agregadas, "
+    "Norma Sujey Salinas Cerrato"
     "prima pura, VaR, TVaR, insuficiencia de prima y un modelo predictivo simple."
 )
 
