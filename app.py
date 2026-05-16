@@ -13,12 +13,12 @@ st.set_page_config(
 )
 import streamlit as st
 
-col1, col2, col3 = st.columns([1,4,1])
+col1, col2, col3 = st.columns([1,6,1])
 
 with col2:
     st.image(
         "https://estrategiastrading.com/wp-content/uploads/2015/03/la-simulacion-de-montecarlo.jpg",
-        width=500
+        width=400
     )
 
 st.title("Simulación Monte Carlo Actuarial - Norma Sujey Salinas")
