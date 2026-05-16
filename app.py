@@ -21,8 +21,8 @@ with col2:
         width=450
     )
 
-st.title("Simulación Monte Carlo Actuarial 
-               Norma Sujey Salinas")
+st.title("Simulación Monte Carlo Actuarial")
+st.subheader(" Norma Sujey Salinas Cerrato")
 st.write(
     "Aplicación basada en el notebook de simulación Monte Carlo para estimar pérdidas agregadas, "
     "Norma Sujey Salinas Cerrato"
