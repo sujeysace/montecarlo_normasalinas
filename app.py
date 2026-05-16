@@ -11,7 +11,16 @@ st.set_page_config(
     page_icon="📊",
     layout="wide"
 )
-st.image("https://estrategiastrading.com/wp-content/uploads/2015/03/la-simulacion-de-montecarlo.jpg",width=300)
+import streamlit as st
+
+col1, col2, col3 = st.columns([1,2,1])
+
+with col2:
+    st.image(
+        "https://estrategiastrading.com/wp-content/uploads/2015/03/la-simulacion-de-montecarlo.jpg",
+        width=300
+    )
+
 st.title("Simulación Monte Carlo Actuarial - Norma Sujey Salinas")
 st.write(
     "Aplicación basada en el notebook de simulación Monte Carlo para estimar pérdidas agregadas, "
